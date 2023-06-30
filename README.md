@@ -8,6 +8,7 @@ The course uses .NET Core 3.8, so I made a fewer changes to work with .NET Core 
 
 Here you have the script for the SQL SERVER database that I Use on the crud excersise:
 
+===============================================================
 CREATE DATABASE LocalStuff
 GO
 
@@ -23,6 +24,10 @@ VALUES ('Microsoft SQL Server', 1989, 'Microsoft'),
 		('PostgreSQL', 1996, 'PostgreSQL global'),
 		('Oracle Database', 1977, 'Oracle Corporation'),
 		('Mongo DB', 2009, 'MongoDB INC.')
+
+===============================================================
+
+The front end part of this project: https://github.com/DanielOsunaV/React-NET-CORE-6-CRUD
 
 we only create a simple Database, a table and we add some values to have information on it.
 
