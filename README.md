@@ -9,6 +9,7 @@ The course uses .NET Core 3.8, so I made a fewer changes to work with .NET Core 
 Here you have the script for the SQL SERVER database that I Use on the crud excersise:
 
 ===============================================================
+
 CREATE DATABASE LocalStuff
 GO
 
