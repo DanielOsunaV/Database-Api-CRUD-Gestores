@@ -1,0 +1,32 @@
+﻿{
+
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:13534",
+      "sslPort": 44379
+    }
+  },
+  "profiles": {
+    "apiGestores": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      //here we only set the launchurl at api/gestores so we could get the main db table values as we start the api, this will let us know 
+      //that the api is running and conected to our local sql server correctly and will serve as the main dir of our API.
+      "launchUrl": "api/gestores",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
